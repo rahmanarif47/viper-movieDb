@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C56946CD-C7F4-484F-A99D-D7C24F964077"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECF2F006-923A-4473-B51F-13C5326684B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "initView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86047447-70AA-4C66-A24C-636D503A2DB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/Network/DataFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getGenre(endpoint:completion:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49F459A8-44C0-46F5-B8F2-B7AE8CB63D07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/Network/DataFetcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getGenre(endpoint:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "49F459A8-44C0-46F5-B8F2-B7AE8CB63D07 - afa4d41ccfce9370"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Viper_MovieDV.NetworkDataFetcher.getGenre(endpoint: Viper_MovieDV.Endpoint, completion: (Swift.Result&lt;Swift.Array&lt;Viper_MovieDV.Genre&gt;, Viper_MovieDV.MovieDBAPIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/Network/DataFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "562">
+               </Location>
+               <Location
+                  uuid = "49F459A8-44C0-46F5-B8F2-B7AE8CB63D07 - afa4d41ccfce9370"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Viper_MovieDV.NetworkDataFetcher.getGenre(endpoint: Viper_MovieDV.Endpoint, completion: (Swift.Result&lt;Swift.Array&lt;Viper_MovieDV.Genre&gt;, Viper_MovieDV.MovieDBAPIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/Network/DataFetcher.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "650">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6BBF36F-65B3-4AC8-821C-931D1356E904"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenrePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchGenre()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "GenreViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 9de0768bea5edc83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.presenter.getter : Swift.Optional&lt;Viper_MovieDV.GenrePresenterInput&gt;"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 265d219ba196478f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.presenter.setter : Swift.Optional&lt;Viper_MovieDV.GenrePresenterInput&gt;"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 8e3a1a855d41ea5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.presenter.modify : Swift.Optional&lt;Viper_MovieDV.GenrePresenterInput&gt;"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 7e2d3cb035a083ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.presenter.modify : Swift.Optional&lt;Viper_MovieDV.GenrePresenterInput&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 19bea611414b9d8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Viper_MovieDV.GenreViewController"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "314790F4-43BD-47DF-8DE9-146C0F61FDA1 - 6c89ead8c94b59cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Viper_MovieDV.GenreViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Viper_MovieDV.GenreViewController&gt;"
+                  moduleName = "Viper-MovieDV"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arifrahmansidik/Documents/Improvement%20IOS%20Developer/Viper-MovieDV/Viper-MovieDV/GenreMovie/GenreViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC94DD89-4358-4DFF-B2B3-7EE78C5FEFA1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "GenreInteractor"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E23D3C1D-EA8D-4B66-A235-F7337AEFD1D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/Network/Endpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "url"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87AAB434-3366-42AF-8A30-BF44FB3C1B4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "build()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB3D3E8F-AD05-4C12-9B91-C86A544BEE7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "build()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44D67AF0-C8CA-4165-9E85-4EDB8588A8E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Viper-MovieDV/GenreMovie/GenreBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "build()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
