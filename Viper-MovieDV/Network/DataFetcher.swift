@@ -48,7 +48,7 @@ class NetworkDataFetcher: DataFetcher {
             switch response.statusCode {
             case 200:
                 if let decode = self.decode(jsonData: genreRespone.self, from: data) {
-                    print(decode.genres)
+
                     completion(.success(decode.genres))
                 }
             case 500:
