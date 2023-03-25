@@ -10,9 +10,14 @@ import Foundation
 protocol GenreInteractorProtocol: AnyObject {
     func fetchData()
     func pushToList(at indexPath: IndexPath)
+    func numberOfItem() -> Int
+    func showLoading()
+    func showCellForRow(at indexPath : IndexPath) -> Genre
 }
 
 class GenreInteractor: GenreInteractorProtocol {
+
+    
     fileprivate var genres : [Genre] = []
     
     weak var presenter: GenrePresenterOutput!
@@ -21,7 +26,6 @@ class GenreInteractor: GenreInteractorProtocol {
     
     func fetchData() {
         print("fetch data")
-//        DispatchQueue .main.async {
             self.service.getGenre(endpoint: .getGenre) { [weak self] result in
                 guard let self = self else { return }
                 switch result {
@@ -38,7 +42,16 @@ class GenreInteractor: GenreInteractorProtocol {
     func pushToList(at indexPath: IndexPath) {
         //
     }
-}
-
-extension GenreInteractor   {
+    
+    func numberOfItem() -> Int {
+        return genres.count
+    }
+    
+    func showLoading() {
+        presenter.displayLoading()
+    }
+    
+    func showCellForRow(at indexPath: IndexPath) -> Genre {
+        return genres[indexPath.row]
+    }
 }

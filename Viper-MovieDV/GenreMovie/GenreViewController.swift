@@ -29,11 +29,13 @@ class GenreViewController: UIViewController, GenreViewProtocol {
         title = "Genre"
         registerTableView()
         presenter.fetchGenre()
+        view.hideLoading()
     }
     
     func registerTableView() {
         genreTableView.dataSource = self
         genreTableView.delegate = self
+        self.genreTableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "GenreCell")
     }
     
     func showGenre() {
@@ -41,11 +43,11 @@ class GenreViewController: UIViewController, GenreViewProtocol {
     }
     
     func loading() {
-        _ = UIAlertController()
+        view.showLoading()
     }
     
     func displayError() {
-        //
+//
     }
 }
 
@@ -55,12 +57,21 @@ extension GenreViewController : UITableViewDelegate {
 }
 
 extension GenreViewController : UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return presenter.count()
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GenreCell", for: indexPath) as! TableViewCell
+        
+        cell.set(source: presenter.showDataforRowAt(at: indexPath))
+        
+        return cell
     }
     
     
