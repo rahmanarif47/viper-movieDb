@@ -22,6 +22,7 @@ class GenreRouter: GenreRouterProtocol {
     func pushToListMovie(by genre: String) {
         let listMovieController = ListMovieViewController()
         
+        
         viewController.navigationController?.pushViewController(listMovieController, animated: true)
     }
     

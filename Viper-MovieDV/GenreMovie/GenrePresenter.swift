@@ -10,10 +10,14 @@ import Foundation
 protocol GenrePresenterInput: AnyObject {
     func fetchGenre()
     func pushToList(at indexPath: IndexPath)
+    func count() -> Int
+    func showDataforRowAt(at indexPath: IndexPath) -> Genre
+    func showLoading()
 }
 
 protocol GenrePresenterOutput: AnyObject {
     func presentGenre(item: [Genre])
+    func displayLoading()
 }
 
 class GenrePresenter: GenrePresenterInput {
@@ -28,10 +32,26 @@ class GenrePresenter: GenrePresenterInput {
     func pushToList(at indexPath: IndexPath) {
         interactor.pushToList(at: indexPath)
     }
+    
+    func count() -> Int {
+        interactor.numberOfItem()
+    }
+    
+    func showLoading() {
+        interactor.showLoading()
+    }
+    
+    func showDataforRowAt(at indexPath: IndexPath) -> Genre {
+        interactor.showCellForRow(at: indexPath)
+    }
 }
 
 extension GenrePresenter: GenrePresenterOutput {
     func presentGenre(item: [Genre]) {
         view.showGenre()
+    }
+    
+    func displayLoading() {
+        view.loading()
     }
 }

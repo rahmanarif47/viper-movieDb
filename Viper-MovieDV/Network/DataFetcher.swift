@@ -48,13 +48,35 @@ class NetworkDataFetcher: DataFetcher {
             switch response.statusCode {
             case 200:
                 if let decode = self.decode(jsonData: genreRespone.self, from: data) {
-                    print(decode.genres)
+
                     completion(.success(decode.genres))
                 }
             case 500:
                 completion(.failure(.sercerError))
             default:
                 break
+            }
+        }
+    }
+    
+    func getMovieList(endpoint: Endpoint, completion: @escaping (Result<[ResultMovieList], MovieDBAPIError>) -> Void) {
+        service.request(endpoint: endpoint) { data, response, error in
+            if let _ = error {
+                completion(.failure(.badRequest))
+                return
+                
+                guard let response = response as? HTTPURLResponse else { return }
+                switch response.statusCode {
+                case 200:
+                    if let decode = self.decode(jsonData: MovieList.self, from: data) {
+
+                        completion(.success(decode.results))
+                    }
+                case 500:
+                    completion(.failure(.sercerError))
+                default:
+                    break
+                }
             }
         }
     }
